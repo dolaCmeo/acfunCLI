@@ -3,7 +3,7 @@
 <br />
 
 <p align="center">
-<a href="https://github.com/dolaCmeo/acfunSDK">
+<a href="https://github.com/dolaCmeo/acfunsdk">
 <img height="100" src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="">
 <img height="100" src="https://ali-imgs.acfun.cn/kos/nlav10360/static/common/widget/header/img/acfunlogo.11a9841251f31e1a3316.svg" alt="">
 </a>
@@ -13,7 +13,7 @@
 
 acfunsdk是 **非官方的 [AcFun弹幕视频网][acfun.cn]** Python库。
 
-> `acfuncli` 是`acfunsdk`的附属组件，提供命令行操作支持。
+> `acfunsdk-cli` 是`acfunsdk`的附属组件，提供命令行操作支持。
 
 - - -
 
@@ -21,17 +21,19 @@ acfunsdk是 **非官方的 [AcFun弹幕视频网][acfun.cn]** Python库。
 <details>
 <summary>依赖库</summary>
 
->内置+修改: 位于 `libs` 文件夹内
->
->+ [`climage`](https://pypi.org/project/climage/)
-
 **依赖: 包含在 `requirements.txt` 中**
+
++ [`acfunsdk`](https://pypi.org/project/acfunsdk/)`>=0.9.7`
 
 图形化命令行:
 + [`click`](https://pypi.org/project/click/)`>=8.1`
 + [`rich`](https://pypi.org/project/rich/)`>=12.5`
 + [`emoji`](https://pypi.org/project/emoji/)`>=2`
 + [`Pillow`](https://pypi.org/project/Pillow/)`>=9`
+
+>内置+修改: 位于 `libs` 文件夹内
+>
+>+ [`climage`](https://pypi.org/project/climage/)
 
 </details>
 

@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "acfuncli"
-version = "0.1"
+name = "acfunsdk-cli"
+version = "0.1.0"
 description = "acfunsdk - command line"
 license = "MIT"
 authors = ["dolacmeo <dolacmeo@gmail.com>"]
 maintainers = []
 readme = "README.md"
-homepage = "https://pypi.org/project/acfuncli/"
-repository = "https://github.com/dolaCmeo/acfuncli"
-documentation = "https://github.com/dolaCmeo/acfuncli"
+homepage = "https://pypi.org/project/acfunsdk-cli/"
+repository = "https://github.com/dolaCmeo/acfunsdk-cli"
+documentation = "https://github.com/dolaCmeo/acfunsdk-cli"
 keywords = ["acfun", "sdk", "acfunsdk", "unofficeical", "cli"]
 classifiers = [
     "Development Status :: 1 - Planning",
@@ -27,14 +27,14 @@ classifiers = [
     "Topic :: Internet :: WWW/HTTP :: Browsers",
     "Topic :: Software Development :: Libraries",
 ]
-packages = [{include = "src/acfuncli"}]
+packages = [{include = "acfunsdk_cli"}]
 
 
 [tool.poetry.dependencies]
 python = "^3.8"
+acfunsdk = "^0.9.7"
 rich = "^12.5"
 click = "^8.1"
-emoji = "^2"
 Pillow = "^9"
 kdtree = "^0.16"
 
@@ -50,7 +50,7 @@ name = 'aliyun.mirrors'
 url = "https://mirrors.aliyun.com/pypi/simple/"
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/dolaCmeo/acfunSDK/issues"
+"Bug Tracker" = "https://github.com/dolaCmeo/acfunsdk-cli/issues"
 
 [tool.poetry.scripts]
-acfun = 'acfuncli.__main__:cli'
+acfun = 'acfunsdk_cli.__main__:cli'
