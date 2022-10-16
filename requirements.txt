@@ -1,5 +1,6 @@
 acfunsdk>=0.9.7
 rich>=12.5
+textual>=0.1.18
 click>=8.1
 Pillow>=9
 kdtree>=0.16
